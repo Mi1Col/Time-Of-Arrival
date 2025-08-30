@@ -15,10 +15,10 @@
 
 1. We take some wave receptor as a reference in time. Lets call it $t_1$ for receptor $1$ $\cdots$ $t_i$ for receptor $i$.
 1. Then we calculate the difference of time between each receptor, taking receptor 1 as a reference:
-    $$\Delta t_1 = t_1 - t_1 = 0$$
-    $$\Delta t_2 = t_1 - t_2$$
-    $$\vdots$$
-    $$\Delta t_i = t_1 - t_i$$
+    $$\Delta t_1 = t_1 - t_1 = 0$$  
+    $$\Delta t_2 = t_1 - t_2$$  
+    $$\vdots$$  
+    $$\Delta t_i = t_1 - t_i$$  
 
     > **_NOTE:_**  It doesn't care if $\Delta t < 0$. Beacuse $\Delta t$ is a variation in time, so **it can be** negative, that only means that the event reached one receptor before the one that is used as a reference.
 
@@ -28,8 +28,10 @@
 1. Now we use circles.
     The general formula for a circle is:  
     $$(x - x_1)^2 + (y - y_1)^2 = r^2 $$  
+    
     We are going to say that $(r = d)$  
     Let's say the epicentre is $(x_e, y_e)$  
+
     Our formula will be like this for $i$ receptor:  
     $$(x_e - x_i)^2 + (y_e - y_i)^2 = d^2$$  
 
@@ -57,7 +59,8 @@
         $$\left( A \right)\qquad(x_e - x_A)^2 + (y_e - y_A)^2 = d_A^2$$  
         $$\left( B \right)\qquad(x_e - x_B)^2 + (y_e - y_B)^2 = d_B^2$$  
         $$\left( C \right)\qquad(x_e - x_C)^2 + (y_e - y_C)^2 = d_C^2$$  
-    1. And now we have a equation system with 2 unknowns and three equations so it can be resolved.
+
+    1. And now we have a equation system with 2 unknowns and three equations so it can be resolved.  
         > **_NOTE_** In a real case, with numbers, you will have $x_i$, $y_i$ and $d_i$ ($i$ for any receptor). And only 2 unknowns $x_e$ and $y_e$.
         1. We subtract $\left( B \right) - \left( A \right)$ beacuse later when we will develop the remarkable indentities it would be easier:
             $$(x_e - x_B)^2 + (y_e - y_B)^2 - (x_e - x_A)^2 - (y_e - y_A)^2 = d_B^2 - d_A^2$$  
