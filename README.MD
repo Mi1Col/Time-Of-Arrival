@@ -61,8 +61,8 @@
         $$\left( C \right)\qquad(x_e - x_C)^2 + (y_e - y_C)^2 = d_C^2$$  
 
     1. And now we have a equation system with 2 unknowns and three equations so it can be resolved.  
-        > **_NOTE_** In a real case, with numbers, you will have $x_i$, $y_i$ and $d_i$ ($i$ for any receptor). And only 2 unknowns $x_e$ and $y_e$.
-        1. We subtract $\left( B \right) - \left( A \right)$ beacuse later when we will develop the remarkable indentities it would be easier:
+        > **_NOTE_** In a real case, with numbers, you will have $x_i$, $y_i$ and $d_i$ ($i$ for any receptor). And only 2 unknowns $x_e$ and $y_e$.  
+        1. We subtract $\left( B \right) - \left( A \right)$ beacuse later when we will develop the remarkable indentities it would be easier:  
             $$(x_e - x_B)^2 + (y_e - y_B)^2 - (x_e - x_A)^2 - (y_e - y_A)^2 = d_B^2 - d_A^2$$  
             $$(x_e - x_B)^2 - (x_e - x_A)^2 + (y_e - y_B)^2 - (y_e - y_A)^2 = d_B^2 - d_A^2$$  
         1. Develop the remarkable identities:  
@@ -77,6 +77,11 @@
             $$2 x_e (x_A - x_B) + 2 y_e (y_A - y_B) = d_B^2 - d_A^2 - x_B^2 + x_A^2 - y_B^2 + y_A^2 \quad (1)$$  
             $$2 x_e (x_A - x_D) + 2 y_e (y_A - y_D) = d_D^2 - d_A^2 - x_D^2 + x_A^2 - y_D^2 + y_A^2 \quad (2)$$  
 
-           $$x_e (x_A - x_B) + y_e (y_A - y_B) = \frac{d_B^2 - d_A^2 - x_B^2 + x_A^2 - y_B^2 + y_A^2}{2} = R_{BA}$$  
-           $$x_e (x_A - x_D) + y_e (y_A - y_D) = \frac{d_D^2 - d_A^2 - x_D^2 + x_A^2 - y_D^2 + y_A^2}{2} = R_{DA}$$  
-            
+            $$x_e (x_A - x_B) + y_e (y_A - y_B) = \frac{d_B^2 - d_A^2 - x_B^2 + x_A^2 - y_B^2 + y_A^2}{2} = R_{BA}$$  
+            $$x_e (x_A - x_D) + y_e (y_A - y_D) = \frac{d_D^2 - d_A^2 - x_D^2 + x_A^2 - y_D^2 + y_A^2}{2} = R_{DA}$$  
+
+            <!--
+            TODO:
+                - Usar imagenes para LaTeX (se vera mejor, creo)
+                - Empezar el codigo.
+            -->
