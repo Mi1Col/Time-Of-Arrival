@@ -52,7 +52,7 @@
         $$d_B = v \cdot \Delta t_B$$
         $$d_C = v \cdot \Delta t_C$$
     1. We use the formula of the circle for every receptor:
-        $$\left( A \right)\qquad(x_e - x_A)^2 + (y_e - y_A)^2 = d_A^2$$
+        $\left( A \right)\qquad(x_e - x_A)^2 + (y_e - y_A)^2 = d_A^2$
         $$\left( B \right)\qquad(x_e - x_B)^2 + (y_e - y_B)^2 = d_B^2$$
         $$\left( C \right)\qquad(x_e - x_C)^2 + (y_e - y_C)^2 = d_C^2$$
     1. And now we have a equation system with 2 unknowns and three equations so it can be resolved.
