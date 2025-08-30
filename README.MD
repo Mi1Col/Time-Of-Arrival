@@ -48,25 +48,25 @@
         $$\Delta t_C = t_A - t_C$$
 
     1. We calculate the distance from every receptor to the epicentre using $d = v \cdot \Delta t$:<br>
-        $$d_A = v \cdot \Delta t_A = v \cdot 0 = 0$$
-        $$d_B = v \cdot \Delta t_B$$
-        $$d_C = v \cdot \Delta t_C$$
+        $$d_A = v \cdot \Delta t_A = v \cdot 0 = 0$$  
+        $$d_B = v \cdot \Delta t_B$$  
+        $$d_C = v \cdot \Delta t_C$$  
     1. We use the formula of the circle for every receptor:
-        $\left( A \right)\qquad(x_e - x_A)^2 + (y_e - y_A)^2 = d_A^2$
-        $$\left( B \right)\qquad(x_e - x_B)^2 + (y_e - y_B)^2 = d_B^2$$
-        $$\left( C \right)\qquad(x_e - x_C)^2 + (y_e - y_C)^2 = d_C^2$$
+        $\left( A \right)\qquad(x_e - x_A)^2 + (y_e - y_A)^2 = d_A^2$  
+        $$\left( B \right)\qquad(x_e - x_B)^2 + (y_e - y_B)^2 = d_B^2$$  
+        $$\left( C \right)\qquad(x_e - x_C)^2 + (y_e - y_C)^2 = d_C^2$$  
     1. And now we have a equation system with 2 unknowns and three equations so it can be resolved.
         > **_NOTE_** In a real case, with numbers, you will have $x_i$, $y_i$ and $d_i$ ($i$ for any receptor). And only 2 unknowns $x_e$ and $y_e$.
         1. We subtract $\left( B \right) - \left( A \right)$ beacuse later when we will develop the remarkable indentities it would be easier:
-            $$(x_e - x_B)^2 + (y_e - y_B)^2 - (x_e - x_A)^2 - (y_e - y_A)^2 = d_B^2 - d_A^2$$
-            $$(x_e - x_B)^2 - (x_e - x_A)^2 + (y_e - y_B)^2 - (y_e - y_A)^2 = d_B^2 - d_A^2$$
+            $$(x_e - x_B)^2 + (y_e - y_B)^2 - (x_e - x_A)^2 - (y_e - y_A)^2 = d_B^2 - d_A^2$$  
+            $$(x_e - x_B)^2 - (x_e - x_A)^2 + (y_e - y_B)^2 - (y_e - y_A)^2 = d_B^2 - d_A^2$$  
         1. Develop the remarkable identities:
-            $$\cancel{x_e^2} - 2 x_e x_B + x_B^2 - \cancel{x_e^2} + 2 x_e x_A - x_A^2 + \cancel{y_e^2} - 2 y_e y_B + y_B^2 + \cancel{y_e^2} + 2 y_e y_A - y_A^2 = d_B^2 - d_A^2$$
+            $$\cancel{x_e^2} - 2 x_e x_B + x_B^2 - \cancel{x_e^2} + 2 x_e x_A - x_A^2 + \cancel{y_e^2} - 2 y_e y_B + y_B^2 + \cancel{y_e^2} + 2 y_e y_A - y_A^2 = d_B^2 - d_A^2$$  
         1. Simplification:
-            $$2 x_e (x_A - x_B) + 2 y_e (y_A - y_B) + (x_B^2 - x_A^2 + y_B^2 - y_A^2) = d_B^2 - d_A^2$$
-            $$2 x_e (x_A - x_B) + 2 y_e (y_A - y_B) = d_B^2 - d_A^2 - x_B^2 + x_A^2 - y_B^2 + y_A^2$$
+            $$2 x_e (x_A - x_B) + 2 y_e (y_A - y_B) + (x_B^2 - x_A^2 + y_B^2 - y_A^2) = d_B^2 - d_A^2$$  
+            $$2 x_e (x_A - x_B) + 2 y_e (y_A - y_B) = d_B^2 - d_A^2 - x_B^2 + x_A^2 - y_B^2 + y_A^2$$  
         1. We subtract $\left( D \right) - \left( A \right)$ **The process is the same, so I'll put only the reult**:
-            $$2 x_e (x_A - x_D) + 2 y_e (y_A - y_D) = d_D^2 - d_A^2 - x_D^2 + x_A^2 - y_D^2 + y_A^2$$
+            $$2 x_e (x_A - x_D) + 2 y_e (y_A - y_D) = d_D^2 - d_A^2 - x_D^2 + x_A^2 - y_D^2 + y_A^2$$  
         1. And now we have this eq. system:
 
             $$\left\{\begin{matrix}
