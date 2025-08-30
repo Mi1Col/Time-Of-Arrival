@@ -73,14 +73,13 @@
         1. We subtract $\left( D \right) - \left( A \right)$ **The process is the same, so I'll put only the reult**:  
             $$2 x_e (x_A - x_D) + 2 y_e (y_A - y_D) = d_D^2 - d_A^2 - x_D^2 + x_A^2 - y_D^2 + y_A^2$$  
         1. And now we have this eq. system:  
-
-            ```math
-            \left\{
+            $$
             \begin{matrix}
             2 x_e (x_A - x_B) + 2 y_e (y_A - y_B) = d_B^2 - d_A^2 - x_B^2 + x_A^2 - y_B^2 + y_A^2 \quad (1) \\
             2 x_e (x_A - x_D) + 2 y_e (y_A - y_D) = d_D^2 - d_A^2 - x_D^2 + x_A^2 - y_D^2 + y_A^2 \quad (2)
             \end{matrix}
             \right.
+            $$
 
 
             $$\left\{\begin{matrix}
