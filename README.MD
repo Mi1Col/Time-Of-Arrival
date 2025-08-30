@@ -15,10 +15,10 @@
 
 1. We take some wave receptor as a reference in time. Lets call it $t_1$ for receptor $1$ $\cdots$ $t_i$ for receptor $i$.
 1. Then we calculate the difference of time between each receptor, taking receptor 1 as a reference:
-    $$\Delta t_1 = t_1 - t_1 = 0$$  
-    $$\Delta t_2 = t_1 - t_2$$  
-    $$\vdots$$  
-    $$\Delta t_i = t_1 - t_i$$  
+    $$\Delta t_1 = t_1 - t_1 = 0$$
+    $$\Delta t_2 = t_1 - t_2$$
+    $$\vdots$$
+    $$\Delta t_i = t_1 - t_i$$
 
     > **_NOTE:_**  It doesn't care if $\Delta t < 0$. Beacuse $\Delta t$ is a variation in time, so **it can be** negative, that only means that the event reached one receptor before the one that is used as a reference.
 
@@ -71,8 +71,14 @@
             $$2 x_e (x_A - x_D) + 2 y_e (y_A - y_D) = d_D^2 - d_A^2 - x_D^2 + x_A^2 - y_D^2 + y_A^2$$  
         1. And now we have this eq. system:  
 
-            $$2 x_e (x_A - x_B) + 2 y_e (y_A - y_B) = d_B^2 - d_A^2 - x_B^2 + x_A^2 - y_B^2 + y_A^2 \qquad \left(1\right)$$
-            $$2 x_e (x_A - x_D) + 2 y_e (y_A - y_D) = d_D^2 - d_A^2 - x_D^2 + x_A^2 - y_D^2 + y_A^2 \qquad \left(2\right)$$ 
+            ```math
+            \left\{
+            \begin{matrix}
+            2 x_e (x_A - x_B) + 2 y_e (y_A - y_B) = d_B^2 - d_A^2 - x_B^2 + x_A^2 - y_B^2 + y_A^2 \quad (1) \\
+            2 x_e (x_A - x_D) + 2 y_e (y_A - y_D) = d_D^2 - d_A^2 - x_D^2 + x_A^2 - y_D^2 + y_A^2 \quad (2)
+            \end{matrix}
+            \right.
+
 
             $$\left\{\begin{matrix}
                 x_e (x_A - x_B) + y_e (y_A - y_B) = \frac{d_B^2 - d_A^2 - x_B^2 + x_A^2 - y_B^2 + y_A^2}{2} = R_{BA}\\ 
