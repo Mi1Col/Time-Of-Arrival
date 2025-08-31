@@ -85,4 +85,4 @@
                 - Usar imagenes para LaTeX (se vera mejor, creo)
                 - Empezar el codigo.
             -->
-            ![alt text](https://latex.codecogs.com/png.image?\color{white}\dpi{110}5=10^2)
+            ![Fórmula blanca](https://latex.codecogs.com/svg.latex?\color{white}E=mc^2)
