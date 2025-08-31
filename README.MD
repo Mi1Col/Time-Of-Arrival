@@ -85,4 +85,4 @@
                 - Usar imagenes para LaTeX (se vera mejor, creo)
                 - Empezar el codigo.
             -->
-            ![alt text](https://latex.codecogs.com/svg.image?\bg{white}\therefore\because\imath)
+            ![alt text](https://latex.codecogs.com/svg.image?\bg{red}\therefore\because\imath)
