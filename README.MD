@@ -80,9 +80,33 @@
             $$x_e (x_A - x_B) + y_e (y_A - y_B) = \frac{d_B^2 - d_A^2 - x_B^2 + x_A^2 - y_B^2 + y_A^2}{2} = R_{BA}$$  
             $$x_e (x_A - x_D) + y_e (y_A - y_D) = \frac{d_D^2 - d_A^2 - x_D^2 + x_A^2 - y_D^2 + y_A^2}{2} = R_{DA}$$  
 
+        1. So, now we can say this:  
+            $$x_A - x_B = a_1$$  
+            $$y_A - y_B = b_1$$  
+
+            $$x_A - x_D = a_2$$
+            $$y_A - y_D = b_2$$  
+            
+            Therefore the formulas will look like this:  
+            $$a_1 x_e + b_1 y_e = R_{BA} \qquad(1)$$
+            $$a_2 x_e + b_2 y_e = R_{DA} \qquad(2)$$
+
+            Now let's delete the $y_e$ form the equations by multiplying the Eq. $(1)$ by $b_2$ and the Eq. $(2)$ by $b_1$. The formulas will look like this:  
+            $$a_1 b_2 x_e + b_1 b_2 y_e = R_{BA} b_2 \qquad(1)$$  
+            $$a_2 b_1 x_e + b_2 b_1 y_e = R_{DA} b_1 \qquad(2)$$  
+            
+            Now we subtract $(1) - (2)$.  
+            $$(a_1 b_2 - a_2 b_1) x_e + (b_1 b_2 - b_2 b_1) y_e = R_{BA} b_2 - R_{DA} b_1$$  
+
+            As yoy can see $(b_1 b_2 - b_2 b_1) y_e = 0$. So we are left with:
+            $$(a_1 b_2 - a_2 b_1) x_e = R_{BA} b_2 - R_{DA} b_1$$
+
+            Now we issolate x_e:  
+            $$x_e = \frac{R_{BA} b_2 - R_{DA} b_1}{a_1 b_2 - a_2 b_1}$$  
+
             <!--
             TODO:
-                - Usar imagenes para LaTeX (se vera mejor, creo)
+                - Acabar explicacion.
                 - Empezar el codigo.
             -->
-            ![Fórmula blanca](https://latex.codecogs.com/svg.latex?\color{white}E=mc^2)
+
