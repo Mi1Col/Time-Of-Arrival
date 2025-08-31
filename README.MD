@@ -38,11 +38,11 @@
 1. And with all of this. Here is the **symbolic solution**:  
 
     1. Let's declarate 3 receptors and the velocity of the wave:
-        | receptor     | Coordinates        | Time      |
-        |:-------------:|:---------------:|:-------------:|
-        | A         |   $(x_a, y_a)$    |$t_A$|
-        | B         |   $(x_b, y_b)$    |$t_B$|
-        | C         |   $(x_c, y_c)$    |$t_C$|
+        | Receptor | Coordinates  | Time  |
+        | :------: | :----------: | :---: |
+        |    A     | $(x_a, y_a)$ | $t_A$ |
+        |    B     | $(x_b, y_b)$ | $t_B$ |
+        |    C     | $(x_c, y_c)$ | $t_C$ |
 
     And the velocity of the wave is $v$  
 
@@ -103,6 +103,10 @@
 
             Now we issolate x_e:  
             $$x_e = \frac{R_{BA} b_2 - R_{DA} b_1}{a_1 b_2 - a_2 b_1}$$  
+
+            And is the same process for $y_e$:
+            $$y_e = \frac{R_{BA} a_2 - R_{DA} a_1}{b_1 a_2 - b_2 a_1}$$  
+
 
             <!--
             TODO:
