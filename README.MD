@@ -5,4 +5,4 @@
     1. The **exact time** in that each receptor catches the wave.
     1. The velocity of the wave.
    
-If you are interested in a more **mathematical** and **_deep_** explanation here is a PDF document <a href="./docs/EXPLANATION.pdf">here</a>
+If you are interested in a more **mathematical** and **_deep_** explanation here is a PDF document <a href="./docs/EXPLANATION.pdf" download>here</a>
